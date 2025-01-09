@@ -1,0 +1,13 @@
+[versions]
+androidNavigation = "2.8.3"
+lifecycleViemodelCompose = "2.6.1"
+msdfsi = "1.1.245@aar"
+coil3v = "3.0.4"
+[libraries]
+androidx-navigation-nc = {group = "androidx.navigation", name ="navigation-compose", version.ref = "androidNavigation" }
+androidx-navigation-nrktx ={group = "androidx.navigation", name = "navigation-runtime-ktx", version.ref = "androidNavigation"}
+androidx-lifecycle-lvc = {group = "androidx.lifecycle", name = "lifecycle-viewmodel-compose", version.ref = "lifecycleViemodelCompose" }
+com-microsoft-design-fsi = {group = "com.microsoft.design" , name = "fluent-system-icons", version.ref = "msdfsi" }
+io-coil-kt-coil3-cc = {group = "io.coil-kt.coil3", name = "coil-compose", version.ref = "coil3v"}
+io-coil-kt-coil3-cno = {group = "io.coil-kt.coil3" , name = "coil-network-okhttp", version.ref = "coil3v"}
+[plugins]
